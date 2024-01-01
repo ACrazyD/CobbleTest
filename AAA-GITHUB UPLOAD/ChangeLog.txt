@@ -22,6 +22,7 @@ V0.0.7
  - added some more food options.
  - Tweaked item pickup systems
  - Updated BEEES
+ - Name Choosen for Modpack - PokeBuilder's Odyssey
 
 V0.0.6
  - Updated 7 Mods

@@ -30,3 +30,6 @@
 /showdown-backup
 /usercache.json
 /usernamecache.json
+config/bettervillage_1.properties
+.gitignore
+config/oculus.properties
