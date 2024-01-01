@@ -4,6 +4,7 @@
 	order_index: 0
 	rewards: [
 		{ item: "cobblemon:revive", weight: 0.4f }
+		{ item: "cobblemon:max_revive", weight: 0.01f }
 		{ item: "cobblemon:red_apricorn" }
 		{ item: "cobblemon:yellow_apricorn" }
 		{ item: "cobblemon:green_apricorn" }
