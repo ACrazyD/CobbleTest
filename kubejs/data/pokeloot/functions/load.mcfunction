@@ -1,4 +1,3 @@
-tellraw @a [{"text":"PokeLoot made by JoaquimPedro201 ","color":"#e78284"},{"text":"[","color":"#ef9f76"},{"text": "⭐","color":"gold"},{"text":"]","color":"#ef9f76"}]
 scoreboard objectives add Timer dummy
 scoreboard objectives add TimerSeconds dummy
 scoreboard objectives add PLOptions trigger {"text":"PokeLootOptions","color":"red"}

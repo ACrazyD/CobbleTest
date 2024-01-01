@@ -1,0 +1,49 @@
+V0.0.9
+ - Converted some cobblemon datapacks into KubeJS Scripts for ease of editing
+ - Updated a few mods for some dupe patching
+ - Maybe fixed Pokemon Agros? (Im really not sure sadly)
+ - Added CobbleLuckyBlocks (Pokemon Luckyblocks found in chests, and can be crafted)
+ - Added PokeSpawn Notifactions for Legendary pokemon spawns
+ - Added PneumaticCraft - Expect tweaks from this soon as im gonna be disableing and tweaking parts
+ - Added Create Easy Structures (Should add some "Create" Structures to the world) (Adds a building block for rails as well!)
+ - Added Stonecutter Recipes for destroyed rails
+
+V0.0.8
+ - Removed Moon Phazes (No Real configs to help lower bloodmoon rates)
+ - Fixed Time! (It was always ment to be longer day/nights just wansnt working)
+ - Tweaked Seasons lengths a bit more (Somehow this worked without the time being correct)
+ - Updated server's backend (Dont even know how it worked with how it was outdated)
+ - Removed Oceans Delight (Forgot to add it to server anyway)
+ - Changed Pokemon Agro system a bit, should stop being randomly agro, and now only agro after provocation... (Not sure about mankey and primeape)
+ - May have lost some quest data... (Ill rebuild it later on, wasnt on client yet anyway)
+
+V0.0.7
+ - Added Pokemon Breading - and Pokemon loot tables to many things
+ - added some more food options.
+ - Tweaked item pickup systems
+ - Updated BEEES
+
+V0.0.6
+ - Updated 7 Mods
+ - Added a Vein Miner Enchant - Can go up to level 5 (A bit more with Apoth) (This is a level 30 Enchant, THat should not work with SilkTouch)
+ - Added Apoth, Tweaked affix item rates/Boss Rates/Gem Rates (This should be more rare now, and make it its own form of rare items)
+ - Added some FTB Quest Addons/KubeJS plugins for later tinkering
+
+V0.0.5
+ - Added the power for pokemon to fight in world with you
+ - Updated 6 Mods
+ - Testing MobSpawn Rates. May need to tweak yet.
+
+V0.0.4
+ - Updated Mincol and core mods for that as well.
+ - Multiplayer Fixes
+
+V0.0.3
+ - Added No Chat Reports... (Was breaking server intereactions...)
+
+V0.0.2
+ - Removed REI (Replaced with JEI due to errors with crafting recipe relizations)
+ - Updated a host of mods
+ - Removed Tiered Bot Pots, and Item Display (They where useless mods that didnt look that great)
+ - Added Stargates (Yes you read that right, this is a trail add. it may not stay)
+ - Added Immersive +cobblemon addon - This allows for Pokeball crafting AutoMagicly (This is temp, gonna rework that recipe)
