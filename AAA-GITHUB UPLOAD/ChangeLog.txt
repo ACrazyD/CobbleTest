@@ -7,6 +7,7 @@ V0.0.9
  - Added PneumaticCraft - Expect tweaks from this soon as im gonna be disableing and tweaking parts
  - Added Create Easy Structures (Should add some "Create" Structures to the world) (Adds a building block for rails as well!)
  - Added Stonecutter Recipes for destroyed rails
+ - Disabled ASync Recipe Registration to combat a server bug
 
 V0.0.8
  - Removed Moon Phazes (No Real configs to help lower bloodmoon rates)

@@ -103,10 +103,19 @@ ServerEvents.recipes(e => {
         'iDi'
     ], {
         c: 'create:copper_sheet',
-        Q: 'minecraft:ghast_tear',
+        Q: 'create_connected:control_chip',
         i: 'minecraft:iron_ingot',
         R: 'cobblemon:max_revive',
         D: 'minecraft:diamond'
+    })
+    e.shaped('cobblemon:pc', [
+        'pgp',
+        'pcp',
+        'ppp'
+    ], {
+        p: 'create:iron_sheet',
+        c: 'create_connected:control_chip',
+        g: '#forge:glass'
     })
 
 
