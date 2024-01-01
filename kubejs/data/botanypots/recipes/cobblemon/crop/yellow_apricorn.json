@@ -1,0 +1,39 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "cobblemon:yellow_apricorn_seed"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "cobblemon:yellow_apricorn_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "cobblemon:yellow_apricorn"
+      },
+      "minRolls": 2,
+      "maxRolls": 8
+    },
+    {
+      "chance": 0.45,
+      "output": {
+        "item": "cobblemon:apricorn_log"
+      },
+      "minRolls": 1,
+      "maxRolls": 6
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "cobblemon:yellow_apricorn_seed"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

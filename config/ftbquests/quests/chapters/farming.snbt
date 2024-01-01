@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farming"
+	group: "2D4601C8DBCED5F1"
+	id: "21028101AEF3C8B9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "4338620B6B716E8A"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "11F915E2356427E5"
+			table_id: 7854049072979372527L
+			type: "loot"
+		}]
+		subtitle: "Thats a \"Grow Up\""
+		tasks: [{
+			advancement: "minecraft:husbandry/plant_seed"
+			criterion: ""
+			id: "49C0540D4C96CE73"
+			type: "advancement"
+		}]
+		x: 1.0d
+		y: -3.5d
+	}]
+	title: "Farming"
+}

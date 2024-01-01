@@ -1,0 +1,330 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_options"
+	group: "2D4601C8DBCED5F1"
+	id: "481F79A2ABBF1024"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["We have a few mods for storage. Here we will walk you though them."]
+			id: "1A34DA7E49D75C8E"
+			subtitle: "Here will be all the storage you need."
+			tasks: [{
+				id: "3C0D8BC0FD15F042"
+				title: "Here Be Storage"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "11C2D1DF1FA07B2D"
+			tasks: [{
+				id: "1091D4FC70260633"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			title: "One Block Dense Storage"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "0FFCB5A70B3047A9"
+			tasks: [{
+				id: "795EF9DD467B2602"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			title: "MultiBlock Dense Storage"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "28A8678906527BF6"
+			tasks: [{
+				id: "1E2CA2F8701DA313"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			title: "Digital Storage"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "13E89205D052B75B"
+			tasks: [{
+				id: "35228628D3BE60C0"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "birch"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "7C7253EF88E23AAA"
+			tasks: [{
+				id: "3D05E41D21221E5A"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						woodType: "birch"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "3B2A32CB9A36C5F2"
+			tasks: [{
+				id: "0C69E3602DAE4EA9"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:diamond_chest"
+					tag: {
+						woodType: "birch"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			id: "27213DEDF2022D26"
+			tasks: [{
+				id: "5A89D22AA31EBD8F"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:netherite_chest"
+					tag: {
+						woodType: "birch"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			id: "5787D60989904A20"
+			tasks: [{
+				id: "750C4F9428613AA5"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:barrel"
+					tag: {
+						woodType: "birch"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "49B325F6FEBC7518"
+			tasks: [{
+				id: "2AC6920DB4068395"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:chest"
+					tag: {
+						woodType: "birch"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "0EC24D203C55A035"
+			tasks: [{
+				id: "03603C01BEFCBC50"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "birch"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "086235E16BE9EFCD"
+			tasks: [{
+				id: "23AFF7E1DD934771"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:gold_barrel"
+					tag: {
+						woodType: "birch"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "663C5805CD38B186"
+			tasks: [{
+				id: "4BECCDDC5CB9D3A2"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:diamond_barrel"
+					tag: {
+						woodType: "birch"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			id: "08898C227D9DAD72"
+			tasks: [{
+				id: "44C3214D617C7D0B"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:netherite_barrel"
+					tag: {
+						woodType: "birch"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			id: "4E359C3B3ABDEF14"
+			tasks: [{
+				id: "468D799F3E4E5F37"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "327027489F6A2545"
+			tasks: [{
+				id: "09FDD357B8226A19"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "6C4B98F936032745"
+			tasks: [{
+				id: "71EABE7420135118"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "3E196AC6C45EF21A"
+			tasks: [{
+				id: "14E012F06123DEAC"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			description: ["This item can be used to interact with other mods storage's being an early way to centralize your storage without needing storage cells"]
+			id: "3419C5A9CDCE900E"
+			subtitle: "Temp Shortcuts"
+			tasks: [{
+				id: "10BDC12FCA0C4AA5"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			title: "Interfacing Early"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "590B95D9A86EC8C6"
+			tasks: [{
+				id: "6BD6C1C720EBA7E2"
+				item: "functionalstorage:oak_1"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			id: "7AFEACDFFD433AA8"
+			tasks: [{
+				id: "36C4199DF70EEBD7"
+				item: "functionalstorage:oak_2"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "5D3D3F29AB0DDD7A"
+			tasks: [{
+				id: "3B57A8B38492A556"
+				item: "functionalstorage:oak_4"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			id: "47AA4A4E994D42A1"
+			tasks: [{
+				id: "2586F50DE31B4583"
+				item: "functionalstorage:simple_compacting_drawer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "41984B7D7FF8435E"
+			tasks: [{
+				id: "57B6F14B6375160F"
+				item: "functionalstorage:compacting_drawer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "79B049F6E48115F6"
+			tasks: [{
+				id: "535555EAB8650835"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "Storage Options"
+}

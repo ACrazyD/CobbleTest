@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:magneton",
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "cobblemon:magnet",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:metal_coat",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "spelunkery:raw_magnetite",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "spelunkery:item_magnet",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:raw_iron",
+        "quantityRange": "0-2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "cobblemon:energy_root"
+    },
+    "categories": [
+      "stone"
+    ],
+    "growthTicks": 1200,
+    "display": {
+      "type": "botanypots:aging",
+      "block": "cobblemon:energy_root"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "cobblemon:energy_root"
+        },
+        "minRolls": 1,
+        "maxRolls": 1
+      }
+    ]
+  }

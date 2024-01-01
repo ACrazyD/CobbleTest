@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:eghoblastoise",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "aether:cold_aercloud",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "minecraft:scute",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "0-3"
+      }
+    ]
+  }
+}

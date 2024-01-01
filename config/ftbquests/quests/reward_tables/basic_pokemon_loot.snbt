@@ -1,0 +1,17 @@
+{
+	id: "2E407B858EBF23DE"
+	loot_size: 3
+	order_index: 0
+	rewards: [
+		{ item: "cobblemon:revive", weight: 0.4f }
+		{ item: "cobblemon:red_apricorn" }
+		{ item: "cobblemon:yellow_apricorn" }
+		{ item: "cobblemon:green_apricorn" }
+		{ item: "cobblemon:blue_apricorn" }
+		{ item: "cobblemon:pink_apricorn" }
+		{ item: "cobblemon:black_apricorn" }
+		{ item: "cobblemon:white_apricorn" }
+		{ item: "cobblemon:rare_candy", weight: 0.1f }
+	]
+	title: "Basic Pokemon Loot"
+}

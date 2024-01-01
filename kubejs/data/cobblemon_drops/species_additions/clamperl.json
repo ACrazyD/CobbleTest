@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:clamperl",
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:prismarine_shard",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "crabbersdelight:raw_clam_meat",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "ecologics:seashell",
+        "percentage": 50.0
+      },
+      {
+        "item": "alexscaves:pearl",
+        "percentage": 5.0
+      },
+      {
+        "item": "crabbersdelight:pearl",
+        "percentage": 5.0
+      }
+    ]
+  }
+}

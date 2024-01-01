@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ingots"
+	group: "44C3A92D7380C8FC"
+	id: "10CF6A0718651B7A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ingots"
+}

@@ -1,0 +1,32 @@
+{
+	"definitions": [
+
+		// 1. Poké Balls
+		{
+			"index": 1,
+			"startColor": "#b1aab0",
+			"endColor": "#6b646a",
+			"bgStartColor": "#ec160A00",
+			"bgEndColor": "#ec160A00",
+			"selectors": ["$cobblemon:poke_balls"]
+		},
+		// 2. Apricorns
+		{
+			"index": 2,
+			"startColor": "#b1aab0",
+			"endColor": "#6b646a",
+			"bgStartColor": "#ec160202",
+			"bgEndColor": "#ec160202",
+			"selectors": ["$cobblemon:apricorns","$cobblemon:apricorn_sprouts"]
+		},
+		// 3. Berries
+		{
+			"index": 3,
+			"startColor": "#b1aab0",
+			"endColor": "#6b646a",
+			"bgStartColor": "#ec04101c",
+			"bgEndColor": "#ec04101c",
+			"selectors": ["$cobblemon:berries"]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:klink",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:raw_iron",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "create:cogwheel",
+        "quantityRange": "0-2"
+      }
+    ]
+  }
+}

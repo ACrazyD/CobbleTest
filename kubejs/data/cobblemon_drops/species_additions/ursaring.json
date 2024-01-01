@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:ursaring",
+  "drops": {
+    "amount": 9,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "quantityRange": "2-4"
+      },
+      {
+        "item": "minecraft:honey_bottle",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:peat_block",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "alexsmobs:bear_fur",
+        "quantityRange": "0-2"
+      }
+    ]
+  }
+}

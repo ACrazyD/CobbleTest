@@ -1,0 +1,29 @@
+const $HashSet = Java.loadClass("java.util.HashSet")
+const $IngredientLookupState = Java.loadClass("mezz.jei.gui.ingredients.IngredientLookupState")
+ItemEvents.rightClicked("stick", event => {
+  let noOutputItems = new $HashSet()
+  let noOutputFluids = new $HashSet()
+  let ingredientsToIgnore = Ingredient.of([
+    "#forge:ores" // not supposed to be craftable or have recipe anyway (except for vein miners)
+  ])
+  global.jeiRuntime.ingredientManager.registeredIngredientTypes.forEach(type => {
+    if (type.ingredientClass.getSimpleName() == "FluidStack" || type.ingredientClass.getSimpleName() == "ItemStack") {
+      global.jeiRuntime.ingredientManager.getAllIngredients(type).forEach(fluidOrItem => {
+        let ingredientTyped = global.jeiRuntime.ingredientManager.createTypedIngredient(fluidOrItem).orElse(null)
+        let lookupState
+        if (ingredientTyped) {
+          let focus = global.jeiRuntime.jeiHelpers.focusFactory.createFocus("output", ingredientTyped)
+          lookupState = $IngredientLookupState.createWithFocus(global.jeiRuntime.recipeManager, focus)
+        }
+        if ((!ingredientTyped || lookupState.recipeCategories.length == 0)) {
+          if (fluidOrItem.getClass().getSimpleName() == "ItemStack" && !ingredientsToIgnore.test(fluidOrItem)) {
+            noOutputItems.add(fluidOrItem.id.toString())
+          } else if (fluidOrItem.getClass().getSimpleName() == "FluidStack") {
+            noOutputFluids.add(Fluid.of(fluidOrItem.fluid).fluid.arch$registryName().toString())
+          }
+        }
+      })
+    }
+  })
+  JsonIO.write("kubejs/server_scripts/uncraftable.json", JsonIO.toObject({ "uncraftable_fluids": noOutputFluids.stream().sorted().toList(), "uncraftable_items": noOutputItems.stream().sorted().toList() }))
+})

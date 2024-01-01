@@ -1,0 +1,65 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "cobblemon:revival_herb"
+    },
+    "categories": [
+      "dirt",
+      "farmland"
+    ],
+    "growthTicks": 1200,
+    "display": {
+      "type": "botanypots:aging",
+      "block": "cobblemon:revival_herb"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "cobblemon:revival_herb"
+        },
+        "minRolls": 3,
+        "maxRolls": 4
+      },
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "cobblemon:pep_up_flower"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+      },
+      {
+        "chance": 0.20,
+        "output": {
+          "item": "cobblemon:mental_herb"
+        },
+        "minRolls": 1,
+        "maxRolls": 1
+      },
+      {
+        "chance": 0.20,
+        "output": {
+          "item": "cobblemon:power_herb"
+        },
+        "minRolls": 1,
+        "maxRolls": 1
+      },
+      {
+        "chance": 0.20,
+        "output": {
+          "item": "cobblemon:white_herb"
+        },
+        "minRolls": 1,
+        "maxRolls": 1
+      },
+      {
+        "chance": 0.20,
+        "output": {
+          "item": "cobblemon:mirror_herb"
+        },
+        "minRolls": 1,
+        "maxRolls": 1
+      }
+    ]
+  }

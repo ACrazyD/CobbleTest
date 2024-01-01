@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:kangaskhan",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:chilan_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "alexsmobs:kangaroo_meat",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "alexsmobs:kangaroo_hide",
+        "quantityRange": "0-2"
+      }
+    ]
+  }
+}

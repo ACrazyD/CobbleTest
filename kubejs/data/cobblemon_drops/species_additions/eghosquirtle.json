@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:eghosquirtle",
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "aether:cold_aercloud",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:scute",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "0-1"
+      }
+    ]
+  }
+}

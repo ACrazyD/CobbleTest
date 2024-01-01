@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:shellder",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "crabbersdelight:raw_clam_meat",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "ecologics:seashell",
+        "percentage": 50.0
+      },
+      {
+        "item": "alexscaves:pearl",
+        "percentage": 5.0
+      },
+      {
+        "item": "crabbersdelight:pearl",
+        "percentage": 5.0
+      }
+    ]
+  }
+}

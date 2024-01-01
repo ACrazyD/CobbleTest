@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:sableye",
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:amethyst_shard",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:diamond",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:emerald",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "tetra:pristine_diamond",
+        "percentage": 1.0
+      },
+      {
+        "item": "tetra:pristine_emerald",
+        "percentage": 1.0
+      },
+      {
+        "item": "tetra:pristine_lapis",
+        "percentage": 5.0
+      }
+    ]
+  }
+}

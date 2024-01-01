@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:maractus",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:cactus",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0
+      },
+      {
+        "item": "ecologics:prickly_pear",
+        "quantityRange": "0-2"
+      }
+    ]
+  }
+}

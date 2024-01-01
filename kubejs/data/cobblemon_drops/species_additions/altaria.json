@@ -1,0 +1,23 @@
+{
+  "target": "cobblemon:altaria",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "aether:cold_aercloud",
+        "quantityRange": "1-2"
+      },
+      {
+        "item": "minecraft:chicken"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:white_wool",
+        "quantityRange": "1-2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+	hide_tooltip: true
+	id: "6CFF3004F36BE9EF"
+	loot_size: 2
+	order_index: 9
+	rewards: [
+		{ item: "minecraft:quartz" }
+		{ item: "cobblemon:poke_ball" }
+		{ item: "farmersdelight:pasta_with_meatballs" }
+		{ item: "create_crush_everything:diamond_shard" }
+	]
+	title: "Random stuff"
+	use_title: true
+}

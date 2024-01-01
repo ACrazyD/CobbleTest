@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:kingler",
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:kings_rock",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:pinap_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "ecologics:crab_claw",
+        "quantityRange": "0-2"
+
+      },
+      {
+        "item": "crabbersdelight:crab",
+        "percentage": 75.0
+      },
+      {
+        "item": "croptopia:crab",
+        "percentage": 75.0
+      }
+    ]
+  }
+}

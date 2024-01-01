@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:gorebyss",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:deep_sea_scale",
+        "percentage": 5.0
+      },
+      {
+        "item": "ecologics:seashell",
+        "quantityRange": "0-2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "cobblemon:blue_mint_leaf"
+  },
+  "categories": [
+    "dirt",
+    "farmland"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "cobblemon:blue_mint_leaf"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "cobblemon:blue_mint_leaf"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

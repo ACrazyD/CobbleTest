@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "2CEF5C87489C0778", title: "Trainer" }
+		{ id: "2D4601C8DBCED5F1", title: "The Oddities" }
+		{ id: "6596C1B227B71851", title: "Info Beyond" }
+		{ id: "44C3A92D7380C8FC", title: "Milestones" }
+	]
+}

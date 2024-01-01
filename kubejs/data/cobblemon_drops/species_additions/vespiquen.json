@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:vespiquen",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:honey_bottle",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "minecraft:honeycomb",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:charti_berry",
+        "percentage": 10.0
+      },
+      {
+        "item": "the_bumblezone:bee_stinger",
+        "percentage": 50.0
+      }
+    ]
+  }
+}

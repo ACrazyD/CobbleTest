@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:tauros",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:beef",
+        "quantityRange": "1-3"
+      },
+      {
+        "item": "alexsmobs:bison_fur",
+        "quantityRange": "0-2"
+      }
+    ]
+  }
+}

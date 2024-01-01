@@ -1,0 +1,411 @@
+{
+	autofocus_id: "6B1C68D7F7AA7EEE"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starting_out"
+	group: "2CEF5C87489C0778"
+	id: "42AB47B4701684A6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"As im sure you noticed before even looking here, the world is rich with things... Lots of things even... Some hurt, Alot."
+				""
+				"We cant give you the top of the line, but we have this for you, more of a coat I guess?"
+				""
+				"&o(Upgrade to silent gear by placing in a crafting grid)"
+			]
+			id: "6B1C68D7F7AA7EEE"
+			rewards: [
+				{
+					id: "5D6FA21A7D97C885"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29B888EEA1A07B4D"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5842C4E45569369E"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F184639399FE489"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Your gonna need a few things."
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "04A3C193DEAC96D6"
+				title: "Spawn In."
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40A6EFFE3CE6DCAB"]
+			description: [
+				"Right of the gate you may have noticed we have a tree felling system. This helps with larger trees and making a saw will cut these trees even faster!"
+				""
+				"To Bypass this and just get a single log at a time, Hold shift."
+			]
+			id: "4383548E73EFCBA1"
+			rewards: [
+				{
+					id: "0606A9063A6A0E3C"
+					item: {
+						Count: 1b
+						id: "silentgear:blueprint_package"
+						tag: {
+							silentlib.LootContainer: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "752B1ACC892E42E0"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "12E37B07F4ED8FC7"
+					item: "cobblemon:rare_candy"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59DFC48F5901E2DB"
+					table_id: 3332799537809925086L
+					type: "loot"
+				}
+			]
+			subtitle: "Punchin the wood already?"
+			tasks: [{
+				count: 16L
+				id: "0A554196CD9BDE89"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Logs Logs Logs..."
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B1C68D7F7AA7EEE"]
+			description: [
+				"&c&l&oThis is Needed info, so dont forget to read!"
+				""
+				"Items are not Automaticlly picked up here. To grab items either rightclick them, or shift over them. &l&o&aThis is intended to give a more RPG feel. "
+				""
+				"There are lootbeams for higher rarity items to make them noticable. and holding shift while looking at an item out of range will show the item stats."
+			]
+			id: "40A6EFFE3CE6DCAB"
+			rewards: [
+				{
+					count: 16
+					id: "20F4DDE020D51EAF"
+					item: "minecraft:bread"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 32
+					id: "389D87FD7D2FD523"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			subtitle: "We Arnt Normal Here"
+			tasks: [{
+				id: "51F873FDA2FB5087"
+				title: "Item Drops"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4383548E73EFCBA1"]
+			description: [
+				"Silent Gear tools dont break, and can be upgraded over time. They do need repaired however. Dont forget what you make your tool out of for now."
+				""
+				"Vanilla Tools are really really bad, Upgrade your tools (THIS IS INTENDED) - we want your tools to survive being used and upgraded/enchanted."
+			]
+			id: "7E4687D951D5390D"
+			rewards: [
+				{
+					count: 4
+					id: "78AD7D7CD911774F"
+					item: "silentgear:blueprint_paper"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BAACEB399A546CE"
+					table_id: 3332799537809925086L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D10E8C0A5C40B4E"
+					table_id: 5945288442511442129L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A30F3B43006A4CF"
+					table_id: 2346262754869815204L
+					type: "loot"
+				}
+			]
+			subtitle: "Step By Step"
+			tasks: [
+				{
+					id: "353DE57A731D27F5"
+					item: {
+						Count: 1b
+						id: "silentgear:pickaxe"
+						tag: {
+							Damage: 0
+							SGear_Data: {
+								Construction: { }
+								Properties: { }
+								Rendering: { }
+							}
+							SGear_UUID: [I;
+								-911819672
+								-1354348616
+								-1136360994
+								1662452404
+							]
+						}
+					}
+					match_nbt: false
+					title: "Any Silent Pickaxe"
+					type: "item"
+				}
+				{
+					id: "6A2993532D0CD05E"
+					item: {
+						Count: 1b
+						id: "silentgear:sword"
+						tag: {
+							Damage: 0
+							SGear_Data: {
+								Construction: { }
+								Properties: { }
+								Rendering: { }
+							}
+							SGear_UUID: [I;
+								547649963
+								-715371450
+								-1341215558
+								-1808034781
+							]
+						}
+					}
+					match_nbt: false
+					title: "Any Silent Sword"
+					type: "item"
+				}
+				{
+					id: "38FE09231CA0BA2B"
+					item: {
+						Count: 1b
+						id: "silentgear:axe"
+						tag: {
+							Damage: 0
+							SGear_Data: {
+								Construction: { }
+								Properties: { }
+								Rendering: { }
+							}
+							SGear_UUID: [I;
+								-274462499
+								-1571729516
+								-1735677474
+								-487671218
+							]
+						}
+					}
+					match_nbt: false
+					title: "Any Silent Axe"
+					type: "item"
+				}
+				{
+					id: "2DEA4DCE9369B54D"
+					item: {
+						Count: 1b
+						id: "silentgear:shovel"
+						tag: {
+							Damage: 0
+							SGear_Data: {
+								Construction: { }
+								Properties: { }
+								Rendering: { }
+							}
+							SGear_UUID: [I;
+								1430603565
+								-1038070194
+								-1996939119
+								-788380173
+							]
+						}
+					}
+					match_nbt: false
+					title: "Any Silent Shovel"
+					type: "item"
+				}
+			]
+			title: "Lets get you started with making tools!"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4383548E73EFCBA1"]
+			description: ["Good first steps to upgraded tools, building, and who knows what else."]
+			id: "2DD066E4C0C6DBA0"
+			rewards: [
+				{
+					count: 32
+					id: "550BCF50B0A4BAFE"
+					item: "minecraft:cobblestone"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "064F7AB232070D56"
+					table_id: 5945288442511442129L
+					type: "loot"
+				}
+			]
+			subtitle: "Stone Gather"
+			tasks: [{
+				count: 16L
+				id: "61D0E1D619769FC8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:cobblestone"
+					}
+				}
+				title: "Any #forge:cobblestone"
+				type: "item"
+			}]
+			title: "Pick Vs. Stone"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2DD066E4C0C6DBA0"]
+			description: [
+				"You have found iron ore! &o(You already know this dont you?)"
+				""
+				"Lets get that smelted up, maybe upgrade our tools? who knows."
+			]
+			id: "0B4E439E778FA321"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37DFC9DF9DE0D64A"
+					table_id: 5945288442511442129L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BBD35B7E9DE2193"
+					table_id: 2346262754869815204L
+					type: "loot"
+				}
+			]
+			subtitle: "Nice find!"
+			tasks: [{
+				count: 4L
+				id: "72029FCE25864574"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			title: "*Ting*"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E4687D951D5390D"]
+			id: "29CAB54888F92261"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59F1D24E25D99F26"
+					table_id: 3332799537809925086L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CD4CD0BB4FA6C65"
+					table_id: 5945288442511442129L
+					type: "loot"
+				}
+			]
+			subtitle: "Right To Repair"
+			tasks: [{
+				id: "2B759522134F09B8"
+				item: {
+					Count: 1b
+					id: "silentgear:very_crude_repair_kit"
+					tag: {
+						Storage: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Your gonna want this to"
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+	title: "Starting out!"
+}

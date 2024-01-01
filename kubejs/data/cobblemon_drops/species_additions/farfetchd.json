@@ -1,0 +1,23 @@
+{
+  "target": "cobblemon:farfetchd",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:chicken"
+      },
+      {
+        "item": "croptopia:leek",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:medicinal_leek",
+        "percentage": 50
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:swablu",
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "aether:cold_aercloud"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "minecraft:chicken"
+      },
+      {
+        "item": "minecraft:white_wool"
+      }
+    ]
+  }
+}

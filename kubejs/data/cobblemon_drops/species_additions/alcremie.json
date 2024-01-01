@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:alcremie",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "croptopia:whipping_cream",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "croptopia:eton_mess",
+        "percentage": 25.0
+      },
+      {
+        "item": "minecraft:sugar",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:cake",
+        "percentage": 5.0
+      }
+    ]
+  }
+}

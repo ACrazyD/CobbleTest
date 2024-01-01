@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:nacli",
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "spelunkery:rock_salt",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "minecraft:nether_quartz",
+        "quantityRange": "0-1"
+      }
+    ]
+  }
+}

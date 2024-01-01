@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:tyrunt",
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:razor_fang",
+        "percentage": 5.0
+      },
+      {
+        "item": "alexscaves:dinosaur_chop",
+        "quantityRange": "0-1"
+      }
+    ]
+  }
+}
