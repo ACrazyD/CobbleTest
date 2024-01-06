@@ -4,7 +4,7 @@
 	filename: "farming"
 	group: "2D4601C8DBCED5F1"
 	id: "21028101AEF3C8B9"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [{
 		id: "4338620B6B716E8A"
