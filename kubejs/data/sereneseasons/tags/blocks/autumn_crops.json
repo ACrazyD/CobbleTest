@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "_comment1": "Year Round Ends At Line 9",
+  "values": [
+    "biomemakeover:blighted_balsa_sapling",
+    "biomemakeover:willow_sapling",
+    "biomemakeover:swamp_cypress_sapling",
+    "biomemakeover:ancient_oak_sapling",
+    "silentgear:netherwood_sapling"
+  ]
+}

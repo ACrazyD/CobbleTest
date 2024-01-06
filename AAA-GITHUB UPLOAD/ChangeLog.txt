@@ -1,3 +1,6 @@
+V0.0.10
+ - Added a Milling recipe for Sinew Fibers
+
 V0.0.9
  - Converted some cobblemon datapacks into KubeJS Scripts for ease of editing
  - Updated a few mods for some dupe patching
