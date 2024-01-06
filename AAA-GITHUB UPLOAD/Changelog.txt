@@ -1,3 +1,6 @@
+V0.0.10-a
+ - Minor Hotpatch to remove a unused mod that was breaking things.
+
 V0.0.10
  - Added a Milling recipe for Sinew Fibers
  - Updated All Outdated Mods
