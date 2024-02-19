@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creating_worlds_sorta"
+	group: "2CEF5C87489C0778"
+	id: "41ADE5342F9C47BD"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "2407846217CE4EDB"
+		tasks: [{
+			id: "4A60B2E5423AE009"
+			item: "create:wrench"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Creating Worlds (Sorta)"
+}

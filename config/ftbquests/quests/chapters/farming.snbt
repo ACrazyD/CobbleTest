@@ -6,23 +6,95 @@
 	id: "21028101AEF3C8B9"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "4338620B6B716E8A"
-		rewards: [{
-			exclude_from_claim_all: true
-			id: "11F915E2356427E5"
-			table_id: 7854049072979372527L
-			type: "loot"
-		}]
-		subtitle: "Thats a \"Grow Up\""
-		tasks: [{
-			advancement: "minecraft:husbandry/plant_seed"
-			criterion: ""
-			id: "49C0540D4C96CE73"
-			type: "advancement"
-		}]
-		x: 1.0d
-		y: -3.5d
-	}]
+	quests: [
+		{
+			id: "4338620B6B716E8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11F915E2356427E5"
+				table_id: 7854049072979372527L
+				type: "loot"
+			}]
+			subtitle: "Thats a \"Grow Up\""
+			tasks: [{
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+				id: "49C0540D4C96CE73"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "13111548C712EC4A"
+			tasks: [{
+				id: "3CB88A58BBE8BC7E"
+				item: "cobblemon:red_apricorn"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			id: "70DB41D93F1DF35C"
+			tasks: [{
+				id: "379109A75F9E7F99"
+				item: "cobblemon:yellow_apricorn"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			id: "30EA5683A2B50A79"
+			tasks: [{
+				id: "2B52EB811287EEFB"
+				item: "cobblemon:green_apricorn"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			id: "59B2C0574D88DF83"
+			tasks: [{
+				id: "777789CD49EFC8DB"
+				item: "cobblemon:blue_apricorn"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			id: "6B4B972C5D81A12B"
+			tasks: [{
+				id: "59EF2B37E3BCF4D6"
+				item: "cobblemon:pink_apricorn"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.5d
+		}
+		{
+			id: "757D5A0D2D4008BB"
+			tasks: [{
+				id: "01C5075075E50B07"
+				item: "cobblemon:black_apricorn"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -12.5d
+		}
+		{
+			id: "13A4F43D40F16B10"
+			tasks: [{
+				id: "69C78A22730DE439"
+				item: "cobblemon:white_apricorn"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -13.5d
+		}
+	]
 	title: "Farming"
 }

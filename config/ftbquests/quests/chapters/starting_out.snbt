@@ -136,7 +136,7 @@
 			description: [
 				"&c&l&oThis is Needed info, so dont forget to read!"
 				""
-				"Items are not Automaticlly picked up here. To grab items either rightclick them, or shift over them. &l&o&aThis is intended to give a more RPG feel. "
+				"There are no floating items, they fall over, can be yeeted, and float or sink in water. To YEET items hold your \"Drop Item\" Button to charge up toss."
 				""
 				"There are lootbeams for higher rarity items to make them noticable. and holding shift while looking at an item out of range will show the item stats."
 			]
